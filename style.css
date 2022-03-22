@@ -1,0 +1,35 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    word-wrap: break-word;
+}
+
+body {
+    /* sizing */
+    height: 100vh;
+    width: 100vw;
+
+    /* display  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: silver;
+}
+
+.gif-container{
+    text-align: center;
+}
+
+.searchbar-container{
+    text-align: center;
+}
+
+.gif {
+    width: 400px;
+    height: 300px;
+}
