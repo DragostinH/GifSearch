@@ -29,6 +29,16 @@ body {
     text-align: center;
 }
 
+#search-bar{
+    width: 65%;
+}
+
+#search-bar,
+#search-btn{
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
 .gif {
     width: 400px;
     height: 300px;
